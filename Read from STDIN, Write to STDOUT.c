@@ -1,11 +1,14 @@
 #include<stdio.h>
-main()
+
+int main()
 {
- int num=5,a;
- char b[20]="helloworld";
- scanf("%d",&num);
- a=2*num;
- printf("%d\n",a);
- scanf("%s",b);
- printf("%s",b);
+	int num=5,a;
+	char b[20]="helloworld";
+	scanf("%d",&num);
+	a=2*num;
+	printf("%d\n",a);
+	printf("%s\n",b);
+	scanf("%s",b);
+	printf("%s\n",b);
+	return 0;
 }
